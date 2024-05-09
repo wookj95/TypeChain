@@ -1,0 +1,15 @@
+{
+  "include": ["src"],
+  "compilerOptions": {
+    "outDir": "build",
+    "target": "ES6",
+    "lib": ["ES6"],
+    //"strict": true = 모든 실수로부터 도와주려고 경고창 엄청나와서 귀찮아질수도있음
+    "strict": true,
+    //타입스크립트 안에 자바스트립트 허용
+    // "allowJs": true,
+    //패키지를import * as crypto이런식이아닌 평범하게 불러오고싶다면 사용
+    "esModuleInterop": true,
+    "module": "CommonJS"
+  }
+}
